@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 1rem;
+    border-radius: 1.3rem;
+    padding: 0.5rem;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+.inner-container{
+    border-radius: 1rem;
+    background: var(--color4);
+    color: white;
+    overflow: hidden;
+    font-size:xx-large;
+}
+body{
+    background-color: rgb(216, 195, 195);
+    color: rgb(0, 0, 0);
+    height: 100vh;  
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Incrementar{
+    border-radius: 5px;
+    font-size:large;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+
+}
+#Incrementar:hover{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#Zerar{
+    border-radius: 5px;
+    font-size:large;
+    background-color: white transparent;
+    border: 2px solid #4CAF50;
+  
+}
+
+#Zerar:hover{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#Decrementar{
+    border-radius: 5px;
+     font-size:large;
+     background-color: white;
+     border: 2px solid #4CAF50;
+}
+ 
+#Decrementar:hover{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
